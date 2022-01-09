@@ -46,5 +46,5 @@ Bagging	Boosting
 •	All the weak learners are built in parallel i.e. independent of each other	Successive weak learners to improve the accuracy from the prior learners	
 •	Each weak learner has equal weight in the final prediction.	More weight to those weak learners with better performance	
 •	Samples are drawn from the original dataset with replacement to train each individual weak learner	Subsequent samples have more of those observations which had relatively higher errors in previous weak learners	
-•	Can help reduce variance of the mode	Can help reduce bias of the mode	
+•	Can help reduce variance of the mode	Can help reduce bias of the mode
 •	Example: Bagging Classifier, Random Forest	Example: AdaBoost, Gradient Boosting Classifier
